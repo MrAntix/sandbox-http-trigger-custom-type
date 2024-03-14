@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.HttpTriggerCustomType", "Sandbox.HttpTriggerCustomType\Sandbox.HttpTriggerCustomType.csproj", "{C3B0B6AF-5E44-4439-BA60-586F27268669}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.HttpTriggerCustomType.Tests", "Sandbox.HttpTriggerCustomType.Tests\Sandbox.HttpTriggerCustomType.Tests.csproj", "{14C7E237-56A3-415E-87F2-9D4DFC616338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C3B0B6AF-5E44-4439-BA60-586F27268669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3B0B6AF-5E44-4439-BA60-586F27268669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3B0B6AF-5E44-4439-BA60-586F27268669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C7E237-56A3-415E-87F2-9D4DFC616338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C7E237-56A3-415E-87F2-9D4DFC616338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C7E237-56A3-415E-87F2-9D4DFC616338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C7E237-56A3-415E-87F2-9D4DFC616338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

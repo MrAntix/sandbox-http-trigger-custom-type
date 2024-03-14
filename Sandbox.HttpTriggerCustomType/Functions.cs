@@ -10,7 +10,7 @@ namespace HttpTriggerCustomType
         public static async Task<IActionResult> TriggerModelAsync(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = ROUTES.TRIGGER)] Model model)
         {
-            if (model == null) throw new ArgumentNullException(nameof(model));
+            if (model == null) return new BadRequestResult();
 
             return new OkResult();
         }
@@ -20,7 +20,7 @@ namespace HttpTriggerCustomType
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = ROUTES.BIND)] HttpRequest request,
             [FromBody] Model model)
         {
-            if (model == null) throw new ArgumentNullException(nameof(model));
+            if (model == null) return new BadRequestResult();
 
             return new OkResult();
         }
